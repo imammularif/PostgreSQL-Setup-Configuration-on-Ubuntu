@@ -13,5 +13,15 @@ Dokumentasi langkah-langkah install PostgreSQL di Ubuntu, konfigurasi ke DBeaver
      ```
    jika ada pesan konfirmasi [Y/n], ketik y. Tunggu proses instalasi posgresql nya selesai.
    
-6. 
+6. jika sudah selesai, hapus semua menggunakan printah : clear. lalu, ketik perintah sudo -i -u postgres psql (untuk membuka administrator postgress)
+    ```bash
+     sudo -i -u postgres psql
+     ```
+8. ubah pasword user postgrees nya menggunakan query berikut :
+   ```bash
+     alter user postgres with encrypted password '1234';
+     ```
+   lalu akan muncul kalimat ALTER ROLE, setalhnya ketik \q untuk keluar
+   ![Hasil Query]()
+
 
