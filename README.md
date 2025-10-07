@@ -33,8 +33,7 @@ Dokumentasi langkah-langkah install PostgreSQL di Ubuntu, konfigurasi ke DBeaver
     ![CEK INSTALASI](https://github.com/imammularif/PostgreSQL-Setup-Ubuntu-DBeaver/blob/main/Chapture/3.png)
 
 
-Untuk kopneksi ke dbeaver, dapat dilihat dokumnetasinya menggunakan link berikut : [instalasi dbeaver]([https://www.w3schools.com/sql/](https://github.com/imammularif/Cara-Install-Dbeaver-di-Ubuntu)
-   
+Untuk kopneksi ke dbeaver, dapat dilihat dokumnetasinya menggunakan link berikut : [W3Schools SQL Tutorial](https://github.com/imammularif/Cara-Install-Dbeaver-di-Ubuntu)
 
 
 
