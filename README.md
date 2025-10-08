@@ -64,7 +64,7 @@ atau menggunaka ss
 
 
 
-Untuk kopneksi ke dbeaver, dapat dilihat dokumnetasinya menggunakan link berikut : [Instalasi & konfigurasi Dbeaver](https://github.com/imammularif/Cara-Install-Dbeaver-di-Ubuntu)
+Untuk koneksi ke dbeaver, dapat dilihat dokumnetasinya menggunakan link berikut : [Instalasi & konfigurasi Dbeaver](https://github.com/imammularif/Cara-Install-Dbeaver-di-Ubuntu)
 
 
 
