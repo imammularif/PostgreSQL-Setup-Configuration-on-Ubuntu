@@ -8,24 +8,24 @@ Dokumentasi ini dibuat sebagai referensi pribadi atau mini project.
 1. Update repository:
 
   ```bash
-     sudo apt update
+  sudo apt update
   ```
 
 2. Install PostgreSQL:
 
  ```bash
-     sudo apt install postgresql postgresql-contrib
+ sudo apt install postgresql postgresql-contrib
   ```
    
 3. Cek versi PostgreSQL:
 
  ```bash
-     psql --version
+ psql --version
   ```
 atau 
 
  ```bash
-    ls /etc/postgresql/
+ ls /etc/postgresql/
   ```
 
 ## 2. Konfigurasi PostgreSQL
@@ -33,13 +33,13 @@ atau
 1. Buka file konfigurasi:
 
 ```bash
-      sudo nano /etc/postgresql/<versi>/main/postgresql.conf
+sudo nano /etc/postgresql/<versi>/main/postgresql.conf
   ```
 
 2. Cari baris port dan ubah sesuai kebutuhan:
 
 ```bash
-      port = 5433
+port = 5433
    ```
 
 3. Simpan dan keluar (Ctrl+X, Y, Enter).
@@ -49,17 +49,17 @@ atau
 Supaya konfigurasi baru aktif:
 
 ```bash
-      sudo systemctl restart postgresql
+sudo systemctl restart postgresql
    ```
 
 ## 4. Verifikasi Port
 ```bash
-      sudo netstat -plnt | grep postgres
+sudo netstat -plnt | grep postgres
    ```
 atau menggunaka ss
 
 ```bash
-      sudo ss -plnt | grep postgres
+sudo ss -plnt | grep postgres
    ```
 
 
