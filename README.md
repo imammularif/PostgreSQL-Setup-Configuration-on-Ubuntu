@@ -22,7 +22,11 @@ Dokumentasi ini dibuat sebagai referensi pribadi atau mini project.
  ```bash
      psql --version
   ```
+atau 
 
+ ```bash
+    ls /etc/postgresql/
+  ```
 
 ## 2. Konfigurasi PostgreSQL
 
@@ -34,15 +38,29 @@ Dokumentasi ini dibuat sebagai referensi pribadi atau mini project.
 
 2. Cari baris port dan ubah sesuai kebutuhan:
 
-   ```bash
+```bash
       port = 5433
    ```
 
 3. Simpan dan keluar (Ctrl+X, Y, Enter).
 
+## 3. Restart PostgreSQL
 
+Supaya konfigurasi baru aktif:
 
+```bash
+      sudo systemctl restart postgresql
+   ```
 
+## 4. Verifikasi Port
+```bash
+      sudo netstat -plnt | grep postgres
+   ```
+atau menggunaka ss
+
+```bash
+      sudo ss -plnt | grep postgres
+   ```
 
 
 
