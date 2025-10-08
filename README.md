@@ -17,13 +17,31 @@ Dokumentasi ini dibuat sebagai referensi pribadi atau mini project.
      sudo apt install postgresql postgresql-contrib
   ```
    
-4. Cek versi PostgreSQL:
+3. Cek versi PostgreSQL:
 
  ```bash
      psql --version
   ```
 
-6. 
+
+## 2. Konfigurasi PostgreSQL
+
+1. Buka file konfigurasi:
+
+```bash
+      sudo nano /etc/postgresql/<versi>/main/postgresql.conf
+  ```
+
+2. Cari baris port dan ubah sesuai kebutuhan:
+
+   ```bash
+      port = 5433
+   ```
+
+3. Simpan dan keluar (Ctrl+X, Y, Enter).
+
+
+
 
 
 
