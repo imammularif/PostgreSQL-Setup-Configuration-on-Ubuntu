@@ -6,8 +6,24 @@ Dokumentasi ini dibuat sebagai referensi pribadi atau mini project.
 ## 1. Instalasi PostgreSQL
 
 1. Update repository:
-```bash
-sudo apt update
+
+  ```bash
+     sudo apt update
+  ```
+
+2. Install PostgreSQL:
+
+ ```bash
+     sudo apt install postgresql postgresql-contrib
+  ```
+   
+4. Cek versi PostgreSQL:
+
+ ```bash
+     psql --version
+  ```
+
+6. 
 
 
 
