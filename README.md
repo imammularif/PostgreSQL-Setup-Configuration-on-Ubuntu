@@ -17,7 +17,7 @@ Dokumentasi ini dibuat sebagai referensi pribadi atau mini project.
  sudo apt install postgresql postgresql-contrib
   ```
 
-note : jika ada kendala conect ke servernya, biasanya setelah istall postgresqlnya, superuser/admin sudah otomatis ter create, dan biasanya mereka menggunakan password untuk conek ke conection servernya. untuk mengubah passwordnya, cukup menggunakan perintah alter :
+note : jika ada kendala conect ke servernya, biasanya setelah install postgresql-nya, superuser/admin sudah otomatis ter create, dan biasanya mereka menggunakan password untuk conek ke conection servernya. untuk mengubah passwordnya, cukup menggunakan perintah alter :
 
 --login dulu
 ```bash
